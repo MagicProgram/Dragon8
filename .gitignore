@@ -1,3 +1,5 @@
 #Ignore TMP
 
-img/
+config/ApiAli.php
+config/dbali.php
+views/img/
