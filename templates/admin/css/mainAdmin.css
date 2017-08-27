@@ -1,0 +1,79 @@
+body{
+	padding:0;
+	display:block;
+}
+
+.hideme{
+	display:none;
+
+}
+
+#header{
+	height: 70px;
+	text-align: center;
+}
+
+#leftColum{
+	width:200px;
+	float: left;
+
+}
+
+#leftMenu, #loginBox, #registerBox{
+	padding-bottom: 20px;
+
+}
+
+#centerColumn {
+	width: 600px;
+	float:left;
+	
+}
+
+#footer{
+	clear: both;
+}
+
+.menuCaption{
+	padding: 3px;
+	font-weight: bold;
+}
+
+.cartBox{
+	padding: 5px 0px 5px 0px;
+}
+
+.text {
+    font-weight: normal;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+}
+
+    .product-block {
+    width: 250px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*
+ #blockNewCaegory{
+	width: 150px;  
+    top: 82px; /* Расстояние от верхнего края 
+    bottom: 0; /* Расстояние снизу 
+}
+div>input  {
+	position: relative;
+	float:left;
+}
+
+div>select {
+	position: relative; /* Относительное позиционирование 
+    left: 150px;/* Сдвигаем влево 
+    top:-20px;/* Сдвигаем вверх
+
+
+}
+*/

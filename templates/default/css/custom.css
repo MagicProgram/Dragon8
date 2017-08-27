@@ -1,0 +1,10 @@
+img{
+	max-width: 100%;
+
+
+}
+
+.product_info_box .buy {
+    background-image: url(/views/img/cart.svg);
+   
+}

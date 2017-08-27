@@ -1,0 +1,271 @@
+@charset "UTF-8";
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
+
+.product_img_box {
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative; }
+  .product_img_box .sale {
+    height: 33px;
+    width: 56px;
+    background-color: #d2dbaa;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    font-size: 18px; }
+  .product_img_box img.product_img {
+    border: 4px solid #84cdca;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%; }
+  .product_img_box .small_slider {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center; }
+    .product_img_box .small_slider img {
+      height: 100%;
+      border: 4px solid #d2dbaa;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      margin: 0 3px;
+      cursor: pointer; }
+
+.product_info_box {
+  height: 50px;
+  position: relative; }
+  .product_info_box .price {
+    font-size: 26px;
+    line-height: 50px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    display: inline-block; }
+    .product_info_box .price del {
+      font-size: 18px;
+      margin-left: 10px;
+      color: #bbb; }
+  .product_info_box .buy {
+    background-image: url("../img/cart.svg");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-right: 25px;
+    display: inline-block;
+    background-size: 20px;
+    background-position: 15px 50%;
+    height: 35px;
+    line-height: 21px;
+    font-size: 16px;
+    background-color: #fde268;
+    color: #000;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px; }
+    .product_info_box .buy:hover {
+      color: #000;
+      text-decoration: none;
+      background-color: #84cdca; }
+
+img {
+  max-width: 100%; }
+
+header .links {
+  text-align: right;
+  margin-top: 7px; }
+  header .links a {
+    font-size: 15px;
+    margin-right: 35px; }
+
+.screen1 h1 {
+  font-size: 22px; }
+
+.screen1 h2 {
+  font-size: 20px; }
+
+.screen1 .logo-box {
+  background-color: #84cdca;
+  padding: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+  .screen1 .logo-box .logo {
+    height: 100px;
+    vertical-align: top;
+    margin-left: 10px;
+    background-color: #d2dbaa;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  .screen1 .logo-box span {
+    padding-left: 20px;
+    display: inline-block;
+    width: 170px;
+    line-height: 1.3; }
+    .screen1 .logo-box span b {
+      margin-bottom: 7px;
+      display: block;
+      font-weight: 700;
+      font-size: 22px;
+      text-transform: uppercase; }
+
+.screen1 .menu a {
+  display: block; }
+
+.screen1 .pagination {
+  margin: 10px auto;
+  padding: 0;
+  display: block;
+  text-align: center; }
+  .screen1 .pagination li {
+    display: inline-block;
+    padding: 0 5px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc; }
+    .screen1 .pagination li a {
+      color: #5c7479; }
+      .screen1 .pagination li a:hover {
+        color: #000;
+        text-decoration: none; }
+
+.screen1 .products h2 {
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 10px; }
+
+.screen1 .products .product {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 200px;
+  display: inline-block;
+  height: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden; }
+  .screen1 .products .product img {
+    width: 100%;
+    border: 2px solid #84cdca;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+  .screen1 .products .product a {
+    margin-top: 5px;
+    display: block;
+    height: 50px;
+    padding: 0 12px;
+    overflow: hidden;
+    text-align: center;
+    color: #0c2933; }
+    .screen1 .products .product a:hover {
+      text-decoration: underline; }
+  .screen1 .products .product b {
+    display: block;
+    font-size: 18px;
+    text-align: center; }
+
+.screen1 .cat-box {
+  display: inline-block;
+  width: 49%;
+  padding-right: 1%;
+  padding-left: 3%;
+  vertical-align: top; }
+  .screen1 .cat-box > span {
+    position: relative; }
+    .screen1 .cat-box > span::after {
+      content: "☺"; }
+
+footer .down {
+  background-color: #5c7479;
+  height: 40px;
+  color: #fff;
+  font-size: 13px;
+  padding-top: 9px;
+  margin-top: 20px; }
